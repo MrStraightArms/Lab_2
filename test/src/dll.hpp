@@ -4,5 +4,5 @@
 #include "../../Lib/LIB_lib/Read_Write_lib.hpp"
 #include <iostream>
 
-void(*SortMarge_dll) (std::vector<int> *in_mass, int left_board, int right_board);
+typedef void(*Sort_merge_func) (std::vector<int> *in_mass, int left_board, int right_board);
 
